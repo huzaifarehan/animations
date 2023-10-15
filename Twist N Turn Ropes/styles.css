@@ -1,0 +1,31 @@
+:root {
+    --rope-gradient-start: #45b6fe;
+    --rope-gradient-end: #daf0ff;
+    --background-gradient-start: #191919;
+    --background-gradient-end: #383838;
+}
+
+html,
+body,
+canvas {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, var(--background-gradient-start), var(--background-gradient-end));
+}
+
+.asset-img {
+    display: none;
+}
